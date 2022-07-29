@@ -1,35 +1,37 @@
 
 # 🎇 Cirandeiras - Mulheres na Cultura Popular 🎇
 
-![imagem cirandeiras](https://im4.ezgif.com/tmp/ezgif-4-0fa69e4230.gif)
-
-´´´
+![gifCirandeiras](https://user-images.githubusercontent.com/64453332/181848069-2953bdd9-4fbc-4784-86df-169ce65d2c8c.gif)
 
 
-Projeto de conclusão do curso de Desenvolvimento Back-end - Todas em Tech | On16 da {reprograma}. 
+Bem-vind@s ao meu projeto de conclusão do curso de *desenvolvimento back-end* - Todas em Tech | On16 da [{reprograma}](https://reprograma.com.br/). 
 
-Esse projeto foi feito em parceria com o 🎧 [Cirandeiras Podcast](https://www.instagram.com/cirandeiraspodcast/)
+Este projeto é uma API REST. Todas as funções CRUD são executadas para manipular um banco de dados. Para algumas funções é necessário autorização mediante login.
 
 
-
+### Documentação
+Documentação da API [Swagger](http://localhost:1818/documentacao/#/default) 
+ 
+Aplicação disponível no [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
 
 
 ## 💃🏾 Apresentação
-Este projeto é inspirado na segunda temporada do [Cirandeiras Podcast](https://open.spotify.com/show/4THKpW9TIBdxRWe7amFSd5?si=0a0a2e5afd074aae), onde em cada episódio conhecemos sobre a vida e luta de mulheres que são guardiãs da cultura popular em seus territórios. Através da expressão cultural, essas mulheres mantêm vivas as tradições ancestrais e ocupam espaços - antes destinados apenas aos homens -  na cultura e liderança em suas comunidades.
+Este projeto é inspirado na segunda temporada do [Cirandeiras Podcast](https://open.spotify.com/show/4THKpW9TIBdxRWe7amFSd5?si=0a0a2e5afd074aae), onde em cada episódio conhecemos sobre a vida e luta de mulheres que são guardiãs da cultura popular em seus territórios. Através da expressão cultural, essas mulheres mantêm vivas as tradições ancestrais e ocupam espaços de lideranças - muitas vezes destinados apenas aos homens.
 
-A trajetória dessas mulheres e a relação que elas desenvolvem com cada ritmo e dança em seus territórios no fala além: resgata a formação do povo brasileiro e dá contornos a reivindicações antigas, porém tão atuais: reconhecimento e demarcação de territórios quilombolas e indígenas, preservação ambienta, autonomia e liderança feminina, amparo financeiro do Estado às pessoas guardiãs da cultura popular e leis de incentivo e fomento à cultura. 
+A trajetória dessas mulheres e a relação que elas desenvolvem com cada ritmo e dança em seus territórios resgata a formação do povo brasileiro e dá contornos a reivindicações antigas, porém tão atuais: reconhecimento e demarcação de territórios quilombolas e indígenas, preservação ambiental, autonomia e liderança feminina, leis de incentivo e fomento à cultura. 
 
-Como bem disse o escritor Antônio Luiz Simas, *“não se faz festa porque a vida é boa, mas pela razão inversa. (...) as culturas de festa, pelas síncopes da festa, inventam o mundo e subvertem a miséria, inclusive existencial.”*
+Como diz o escritor Antônio Luiz Simas, *“não se faz festa porque a vida é boa, mas pela razão inversa. (...) as culturas de festa, pelas síncopes da festa, inventam o mundo e subvertem a miséria, inclusive existencial.”*
 
-
-Não à toa as danças e brincadeiras que acompanham cada ritmo nos revelam uma tentaiva simbólica de lidar com a exploração nas relações de trabalho, desde a escravidão. Sem deixar de lado o sagrado e uma ironia entre o festejo e a dor, os ritmos das Cirandeiras nos convidam a celebrar a vida. 
+Não à toa, as danças e brincadeiras que acompanham cada ritmo nos revelam uma tentaiva simbólica de lidar com a exploração nas relações de trabalho desde a escravidão. Sem deixar de lado o sagrado e uma certa ironia entre o festejo e a dor, os ritmos das Cirandeiras nos convidam a celebrar o nosso povo. 
 
 Se ouvirmos os relatos de histórias das nossas famílias certamente vamos descobrir brincadeiras infantis, festejos e tradições derivadas dessas expressões culturais. Este resgate nos permite observar, por exemplo, os processos migratórios de famílias no eixo nordeste/sudeste e estabelecer conexões com o passado e nossos ancestrais. 
 
 
-O objetivo desta API é guardar essa memória. 
+O objetivo desta API é guardar essa memória. ✨
 
 Vamos lá?
+
+![gif](https://user-images.githubusercontent.com/64453332/181850464-fedb9837-620c-4faa-bc87-3ab8afe184f9.gif)
 
 
 ### 💾 Tecnologias Utilizadas 
@@ -55,12 +57,6 @@ Vamos lá?
 |[Heroku](https://www.heroku.com/)	|Hospeda a documentação.
 
 
-
-### Documentação da API
-
- Documentação Swagger disponível aqui. 
- 
- Aplicação disponível no Heroku aqui. 
  ### 🗃️ Arquitetura MRC 
  ```
  📁 Projeto-Cirandeiras
@@ -104,8 +100,8 @@ Vamos lá?
 
 ### 📃 Funcionalidades
 
- Vamos nos inspirar com a trajetória e
-vida de cada Cirandeira? 💃🏾 Use a API das Cirandeiras para listar todas as mulheres cadastradas e acessar as seguintes informações: 
+Vamos nos inspirar na vida e trajetória de cada Cirandeira? 💃🏾 
+Use a API das Cirandeiras para listar todas as mulheres cadastradas e acessar as seguintes informações: 
 
 - Nome
 - Idade
@@ -199,9 +195,11 @@ Seguiremos a ordem de instalações no terminal:
        npm i express cors
        npm install nodemon
        npm install mongoose
+       npm i dotenv-safe
        npm i --save-dev dotenv
        npm install bcrypt --save
        npm install jsonwebtoken --save
+       
 
 
 
@@ -219,21 +217,26 @@ Seguiremos a ordem de instalações no terminal:
  ✔️ ✔️ Para rodar remotamente:
 
 
- Utilize a URL do Heroku para fazer as requisições GET conforme rotas descritas acima, ou apenas clique nos links abaixo 😉:
+ Utilize a URL do Heroku para fazer as requisições GET conforme rotas descritas acima, ou apenas clique nos links abaixo. Lembre-se de passar a chave quando um valor for esperado na URL. 😉
 
 ### 💃🏾 Rotas GET para as Cirandeiras:
- - Listar todas as cirandeiras
- - Filtrar cirandeiras por estado
- - Filtrar cirandeiras por ritmo
+ - [Listar todas as cirandeiras](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras)
+ - [Filtrar cirandeiras por estado](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras/?estado=)
+ - [Filtrar cirandeiras por ritmo](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras/?ritmo=)
 
 ### 🎵 Rotas GET para as Ritmos:
- - Listar todos os ritmos
- - Filtrar ritmos por região
- - Filtrar ritmos por origem étnica
+ - [Listar todos os ritmos](https://cirandeiras-projeto-final.herokuapp.com/ritmos)
+ - [Filtrar ritmos por região](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?regiao=)
+ - [Filtrar ritmos por origem étnica](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?origem=)
 
 
+### ⭐ Melhorias futuras:
 
- 
+- Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
+- Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
+    - Agenda de apresentações de cada artista
+    - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
+    
 
 ## Autoria
 
@@ -250,9 +253,4 @@ Escreve para a gente e vamos cirandar junt@s! 💜
 
 
 
-### ⭐ Melhorias futuras:
 
-- Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
-- Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
-    - Agenda de apresentações de cada artista
-    - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
