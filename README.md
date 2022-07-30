@@ -11,7 +11,7 @@
 
 
 <center> 
-Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da [reprograma](https://reprograma.com.br/) 🎉
+Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da {reprograma}.🎉
 
 Este projeto é uma API REST e executa as funções CRUD em um banco de dados não relacional.
 Para as rotas create, patch e delete é necessária autorização mediante login. 
