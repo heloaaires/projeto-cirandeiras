@@ -158,7 +158,8 @@ Este projeto é um CRUD completo, portanto é possível executar também as segu
 | GET    | /cirandeiras/?ritmo= | Utiliza o mesmo endpoint para filtrar por ritmos       |   200  |  ❌  |
 | PATCH  | /cirandeiras/:id | Atualiza os dados de uma cirandeira pelo ID     |   200  |  ✔️  |
 | DELETE | /cirandeiras/:id | Remove o cadastro de uma cirandeira pelo ID       |   200  |  ✔️  |
-<br> 
+
+
 #### 🎵 Ritmos:
  
 | Verbo  |   EndPoint      | Descrição da Rota                      | Status | Auth |
@@ -201,40 +202,37 @@ Em seguida:
   ````   
 
 ## ⚙️ Executando a aplicação
-<br>
+
  ✔️ ✔️ Para fazer testes no servidor local:
  
   - Crie um arquivo .env na raiz do seu projeto e lembre-se de adicioná-lo ao seu .gitignore  
   - Utilize o arquivo .env.example para veririfcar as variáveis de ambiente necessárias.  
   - Inicialize a aplicação com o comando <i>npm start</i> na pasta raiz do projeto.
- <br>
+ 
  ✔️ ✔️ Para rodar remotamente:
 
  Utilize a URL do Heroku para fazer as requisições GET conforme as rotas descritas acima, ou apenas clique nos links abaixo. 
  Lembre-se de passar um valor quando uma chave estiver declarada na URL. 😉
-<br>
 
 ### 💃🏾 Rotas GET para as Cirandeiras:
  - [Listar todas as cirandeiras](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras)
  - [Filtrar cirandeiras por estado](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras/?estado=)
  - [Filtrar cirandeiras por ritmo](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras/?ritmo=)
-<br>
 
 ### 🎵 Rotas GET para as Ritmos:
  - [Listar todos os ritmos](https://cirandeiras-projeto-final.herokuapp.com/ritmos)
  - [Filtrar ritmos por região](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?regiao=)
  - [Filtrar ritmos por origem étnica](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?origem=)
 <br>
-<br>
 
 ## ⭐ Melhorias pro futuro:
-- Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
-    - Agenda de apresentações de cada artista
-    - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
+🪡 Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
+
+ - Agenda de apresentações de cada artista
+ - Loja virtual para vender produtos personalizados ou divulgação de outra forma de obter recursos para que estas mulheres possam seguir trabalhando no meio cultural
+
+🪡 Mural de artistas já falecidas para homenagear e guardar legados das que já se foram, como o da inesquecível Zabé da Loca 💗
 <br>
- - Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
-
-
 <br>    
 
 ## Autoria 🙋
