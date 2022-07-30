@@ -11,8 +11,10 @@
 
 
 <center> 
-Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da [reprograma](https://reprograma.com.br/). 🎉
+Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da [reprograma](https://reprograma.com.br/) 🎉
 
+Este projeto é uma API REST e executa as funções CRUD em um banco de dados não relacional.
+Para as rotas create, patch e delete é necessária autorização mediante login. 
 
 Documentação da API: [Swagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
  
@@ -233,16 +235,13 @@ Em seguida:
 <br>
 
 ## ⭐ Melhorias pro futuro:
-🪡 Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
 
- - Agenda de apresentações de cada artista
- - Loja virtual para vender produtos personalizados ou divulgação de outra forma de obter recursos para que estas mulheres possam seguir trabalhando no meio cultural
+🪡 Integrar uma página dedicada à cada Cirandeira, onde teremos:
 
-- Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
-- Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
     - Agenda de apresentações de cada artista
     - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
 
+🪡 Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
 
 ## Autoria 🙋
 
