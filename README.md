@@ -228,10 +228,12 @@ Em seguida:
 <br>
 
 ## ⭐ Melhorias pro futuro:
-- Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
 - Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
     - Agenda de apresentações de cada artista
     - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
+<br>
+ - Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
+
 
 <br>    
 
@@ -243,8 +245,10 @@ Achou interessante e quer contrubuir para o desenvolvimento de mais funcionalida
 
 Escreve para a gente e vamos cirandar juntas! 💜
 
-🤩 Projeto realizado com os recursos aprendidos no bootcamp: 
-![imagem reprograma](https://user-images.githubusercontent.com/64453332/181824592-356442f6-1286-49ba-a8ce-51f6c66a71b9.png)
+🤩 Projeto realizado com os recursos aprendidos no bootcamp:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/64453332/181824592-356442f6-1286-49ba-a8ce-51f6c66a71b9.png" alt="logo reprogramafy" width="200">
+</p> <p align="center"> </p>
 
 
 
