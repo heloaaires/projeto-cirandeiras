@@ -16,8 +16,8 @@ const ritmosSchema = mongoose.Schema({
     },
 
     origem: {
-        type: String,
-        default: "Não conhecida.",
+        type: [String],
+        default: "Não informada.",
         lowercase: true
     },
 
@@ -29,7 +29,7 @@ const ritmosSchema = mongoose.Schema({
 
     surgimento: {
         type: String,
-        default: "Não conhecido."
+        default: "Não informado."
     }, 
 
     instrumentos: {

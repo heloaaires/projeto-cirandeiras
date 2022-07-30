@@ -1,21 +1,25 @@
 
-# 🎇 Cirandeiras - Mulheres na Cultura Popular 🎇
-
-![gifCirandeiras](https://user-images.githubusercontent.com/64453332/181848069-2953bdd9-4fbc-4784-86df-169ce65d2c8c.gif)
-
-
-Bem-vind@s ao meu projeto de conclusão do curso de *desenvolvimento back-end* - Todas em Tech | On16 da [{reprograma}](https://reprograma.com.br/). 
-
-Este projeto é uma API REST. Todas as funções CRUD são executadas para manipular um banco de dados. Para algumas funções é necessário autorização mediante login.
+<h1 align="center">
+    <br>
+    <p align="center"> Cirandeiras - Mulheres na Cultura Popular 🎇<p>
+</h1>
 
 
-### Documentação
-Documentação da API [Swagger](http://localhost:1818/documentacao/#/default) 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/64453332/181848069-2953bdd9-4fbc-4784-86df-169ce65d2c8c.gif" alt="logo reprogramafy" width="500">
+</p> <p align="center"> </p>
+
+
+<center> 
+Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da [reprograma](https://reprograma.com.br/). 🎉
+
+
+Documentação da API: [Swagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
  
-Aplicação disponível no [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
+Aplicação disponível em: [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
 
 
-## 💃🏾 Apresentação
+### 💃🏾 Apresentação
 Este projeto é inspirado na segunda temporada do [Cirandeiras Podcast](https://open.spotify.com/show/4THKpW9TIBdxRWe7amFSd5?si=0a0a2e5afd074aae), onde em cada episódio conhecemos sobre a vida e luta de mulheres que são guardiãs da cultura popular em seus territórios. Através da expressão cultural, essas mulheres mantêm vivas as tradições ancestrais e ocupam espaços de lideranças - muitas vezes destinados apenas aos homens.
 
 A trajetória dessas mulheres e a relação que elas desenvolvem com cada ritmo e dança em seus territórios resgata a formação do povo brasileiro e dá contornos a reivindicações antigas, porém tão atuais: reconhecimento e demarcação de territórios quilombolas e indígenas, preservação ambiental, autonomia e liderança feminina, leis de incentivo e fomento à cultura. 
@@ -182,25 +186,15 @@ Para segurança dos dados deste projeto, as funções *criar, atualizar e deleta
 
 ## 👋🏾 Preparando o ambiente para a execução
 
-Para executar este projeto, você deverá instalar o Node.js e as dependências do npm.
+Para executar este projeto, você deverá ter instalado na sua máquina o Node.js
 
-Seguiremos a ordem de instalações no terminal:
+Em seguida:
 
 - Clone o projeto através do comando: $ git clone https://github.com/heloaaires/projeto-cirandeiras.git
-- Certifique-se que você está na pasta do projeto e então instale as depêndências: 
-        
-       npm init -y
-       npm install
-       npm install express
-       npm i express cors
-       npm install nodemon
-       npm install mongoose
-       npm i dotenv-safe
-       npm i --save-dev dotenv
-       npm install bcrypt --save
-       npm install jsonwebtoken --save
-       
 
+- Digite no terminal o comando $ npm install
+
+- Digite o comando $ npm start para executar o servidor
 
 
 
@@ -236,7 +230,7 @@ Seguiremos a ordem de instalações no terminal:
 - Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
     - Agenda de apresentações de cada artista
     - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
-    
+
 
 ## Autoria
 

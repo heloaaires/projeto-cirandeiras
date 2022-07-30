@@ -40,16 +40,16 @@ const getAll = async (req, res) => {
     const { origem, regiao } = req.query
     const filter = {}
 
-    if (origem) filter.origem = origem
-
-    const allRitmos = await RitmosModel.find(filter)
+    if (origem) filter.origem = origem 
+      const allRitmos = await RitmosModel.find(filter)
 
     if (regiao) {
 
-        const ritmosRegiao = await RitmosModel.find(filter)
-        return res.status(200).json(ritmosRegiao)
+      filter.regiao = regiao
 
-    }
+        const ritmosRegiao = await RitmosModel.find(filter)
+        res.status(200).json(ritmosRegiao)
+    }  
 
     res.status(200).json(allRitmos)
 
