@@ -12,13 +12,10 @@
 
 <center> 
 Bem-vindas! 
-Este projeto é uma API REST desenvolvida como conclusão do curso de <i>desenvolvimento web back-end</i> turma On16 da [reprograma](https://reprograma.com.br). 🎉
+Este projeto é uma API REST desenvolvida como conclusão do curso de <i>desenvolvimento web back-end</i> turma On16 da <b>[reprograma]</b>. 🎉
 
-Todas as funções CRUD são executadas para manipular um banco de dados não relacional. Para algumas funções é necessário autorização mediante login.</center>.
-<br>
-
-Documentação da API [Swagger](http://localhost:1818/documentacao/#/default) 
-Aplicação disponível no [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
+Todas as funções CRUD são executadas para manipular um banco de dados não relacional. Para algumas funções é necessário autorização mediante login.</center>
+A aplicação está disponível em [Heroku](https://cirandeiras-projeto-final.herokuapp.com/), veja aqui a documentação: [Swagger](http://localhost:1818/documentacao/#/default) 
 
 
 ## 💃🏾 Apresentação
@@ -120,9 +117,7 @@ Use a API das Cirandeiras para listar todas as mulheres cadastradas e acessar as
 - Luta Coletiva e reivindicações atreladas às suas atividades
 - Episodio do Podcast para você ouvir e se inspirar na história dessa mulher!
 
-↪️ Podemos filtrar essa lista por *estado* ou *ritmo*.
-
-<br>
+⏩ Podemos filtrar essa lista por *estado* ou *ritmo*.
 <br> 
 
 Por falar em ritmo...
@@ -139,13 +134,15 @@ Use a API de Ritmos para acessar as seguintes informações 🎵:
 - Região onde surgiu
 - Instrumentos utilizados
 
-↪️ Podemos filtrar essa lista por *região* ou *origem étnica*.
+⏩ Podemos filtrar essa lista por *região* ou *origem étnica*.
 <br>
-Este projeto é um CRUD completo, portanto é possível executar também as seguintes funcionalidades:
 
+Este projeto é um CRUD completo, portanto é possível executar também as seguintes funcionalidades:
+````
 - 📑 Cadastrar novas cirandeiras e novos ritmos no banco de dados
 - 📑 Atualizar os dados das cirandeiras e dos ritmos
-- 📑 Deletar o registro de uma cirandeira ou de um ritmo 
+- 📑 Deletar o registro de uma cirandeira ou de um ritmo
+````
 <br>
 
 ## 🚀 Rotas / endpoints
@@ -161,7 +158,7 @@ Este projeto é um CRUD completo, portanto é possível executar também as segu
 | GET    | /cirandeiras/?ritmo= | Utiliza o mesmo endpoint para filtrar por ritmos       |   200  |  ❌  |
 | PATCH  | /cirandeiras/:id | Atualiza os dados de uma cirandeira pelo ID     |   200  |  ✔️  |
 | DELETE | /cirandeiras/:id | Remove o cadastro de uma cirandeira pelo ID       |   200  |  ✔️  |
- 
+<br> 
 #### 🎵 Ritmos:
  
 | Verbo  |   EndPoint      | Descrição da Rota                      | Status | Auth |
@@ -205,15 +202,12 @@ Em seguida:
 
 ## ⚙️ Executando a aplicação
 <br>
-
  ✔️ ✔️ Para fazer testes no servidor local:
  
   - Crie um arquivo .env na raiz do seu projeto e lembre-se de adicioná-lo ao seu .gitignore  
   - Utilize o arquivo .env.example para veririfcar as variáveis de ambiente necessárias.  
   - Inicialize a aplicação com o comando <i>npm start</i> na pasta raiz do projeto.
-  
-<br>
-
+ <br>
  ✔️ ✔️ Para rodar remotamente:
 
  Utilize a URL do Heroku para fazer as requisições GET conforme as rotas descritas acima, ou apenas clique nos links abaixo. 
