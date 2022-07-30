@@ -235,9 +235,6 @@ Em seguida:
 ## ⭐ Melhorias pro futuro:
 🪡 Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
 
- - Agenda de apresentações de cada artista
- - Loja virtual para vender produtos personalizados ou divulgação de outra forma de obter recursos para que estas mulheres possam seguir trabalhando no meio cultural
-
 - Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
 - Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
     - Agenda de apresentações de cada artista
