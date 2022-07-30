@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 
 const connect = async () => {
     try {
-        await mongoose.connect(DATABASE_URI, {
+        mongoose.connect(DATABASE_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
