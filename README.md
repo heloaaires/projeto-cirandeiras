@@ -26,19 +26,21 @@ A trajetória dessas mulheres e a relação que elas desenvolvem com cada ritmo 
 
 Como diz o escritor Antônio Luiz Simas, *“não se faz festa porque a vida é boa, mas pela razão inversa. (...) as culturas de festa, pelas síncopes da festa, inventam o mundo e subvertem a miséria, inclusive existencial.”*
 
-Não à toa, as danças e brincadeiras que acompanham cada ritmo nos revelam uma tentaiva simbólica de lidar com a exploração nas relações de trabalho desde a escravidão. Sem deixar de lado o sagrado e uma certa ironia entre o festejo e a dor, os ritmos das Cirandeiras nos convidam a celebrar o nosso povo. 
+Não à toa, as danças e brincadeiras que acompanham cada ritmo nos revelam uma tentativa simbólica de lidar com a exploração nas relações de trabalho desde a escravidão. Sem deixar de lado o sagrado e uma certa ironia entre o festejo e a dor, os ritmos das Cirandeiras nos convidam a celebrar o nosso povo. 
 
 Se ouvirmos os relatos de histórias das nossas famílias certamente vamos descobrir brincadeiras infantis, festejos e tradições derivadas dessas expressões culturais. Este resgate nos permite observar, por exemplo, os processos migratórios de famílias no eixo nordeste/sudeste e estabelecer conexões com o passado e nossos ancestrais. 
-
 
 O objetivo desta API é guardar essa memória. ✨
 
 Vamos lá?
 
-![gif](https://user-images.githubusercontent.com/64453332/181850464-fedb9837-620c-4faa-bc87-3ab8afe184f9.gif)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/64453332/181850464-fedb9837-620c-4faa-bc87-3ab8afe184f9.gif" alt="logo reprogramafy" width="500">
+</p> <p align="center"> </p>
+<br>
+<br>
 
-
-### 💾 Tecnologias Utilizadas 
+## 💾 Tecnologias Utilizadas 
 
 
 |  Feramenta    |        Utilidade |
@@ -59,9 +61,9 @@ Vamos lá?
 |[dotenv](https://www.npmjs.com/package/dotenv)|Dependência que gerencia as variáveis de ambiente.
 |[Swagger](https://www.npmjs.com/package/swagger-ui-express) |Gera a documentação do projeto. O comando [swagger-autogen] permite a atualização automática.
 |[Heroku](https://www.heroku.com/)	|Hospeda a documentação.
+<br>
 
-
- ### 🗃️ Arquitetura MRC 
+ ## 🗃️ Arquitetura MRC 
  ```
  📁 Projeto-Cirandeiras
    |
@@ -101,10 +103,11 @@ Vamos lá?
    |- 📑 server.js
    |- 📑 swagger.js
    ```
+ <br>
+ 
+## 📃 Funcionalidades
 
-### 📃 Funcionalidades
-
-Vamos nos inspirar na vida e trajetória de cada Cirandeira? 💃🏾 
+Vamos nos inspirar na vida e trajetória de cada Cirandeira? 💃🏾
 Use a API das Cirandeiras para listar todas as mulheres cadastradas e acessar as seguintes informações: 
 
 - Nome
@@ -115,14 +118,15 @@ Use a API das Cirandeiras para listar todas as mulheres cadastradas e acessar as
 - Luta Coletiva e reivindicações atreladas às suas atividades
 - Episodio do Podcast para você ouvir e se inspirar na história dessa mulher!
 
-↪️ Podemos filtrar essa lista por *estado* ou *ritmo*.
+⏩ Podemos filtrar essa lista por *estado* ou *ritmo*.
+<br> 
 
 Por falar em ritmo...
 
-Vamos aprender mais sobre os ritmos brasileiros? 
-Certamente você irá se surpreender com alguns que nunca ouviu falar! 
+Vamos aprender mais sobre os ritmos brasileiros? Certamente você irá se surpreender com alguns que nunca ouviu falar!
 
-🎵 Use a API de Ritmos para acessar as seguintes informações:
+Use a API de Ritmos para acessar as seguintes informações 🎵:
+
 - Nome do ritmo
 - Descrição
 - Origem étnica
@@ -131,17 +135,18 @@ Certamente você irá se surpreender com alguns que nunca ouviu falar!
 - Região onde surgiu
 - Instrumentos utilizados
 
-↪️ Podemos filtrar essa lista por *região* ou *origem étnica*.
-
+⏩ Podemos filtrar essa lista por *região* ou *origem étnica*.
+<br>
 
 Este projeto é um CRUD completo, portanto é possível executar também as seguintes funcionalidades:
-
+````
 - 📑 Cadastrar novas cirandeiras e novos ritmos no banco de dados
 - 📑 Atualizar os dados das cirandeiras e dos ritmos
-- 📑 Deletar o registro de uma cirandeira ou de um ritmo 
+- 📑 Deletar o registro de uma cirandeira ou de um ritmo
+````
+<br>
 
-
-### 🚀 Rotas / endpoints
+## 🚀 Rotas / endpoints
 
 
 #### 💃🏾 Cirandeiras:
@@ -154,7 +159,8 @@ Este projeto é um CRUD completo, portanto é possível executar também as segu
 | GET    | /cirandeiras/?ritmo= | Utiliza o mesmo endpoint para filtrar por ritmos       |   200  |  ❌  |
 | PATCH  | /cirandeiras/:id | Atualiza os dados de uma cirandeira pelo ID     |   200  |  ✔️  |
 | DELETE | /cirandeiras/:id | Remove o cadastro de uma cirandeira pelo ID       |   200  |  ✔️  |
- 
+
+
 #### 🎵 Ritmos:
  
 | Verbo  |   EndPoint      | Descrição da Rota                      | Status | Auth |
@@ -166,10 +172,9 @@ Este projeto é um CRUD completo, portanto é possível executar também as segu
 | PATCH  | /ritmos/:id | Atualiza os dados de um ritmo pelo ID     |   200  |  ✔️  |
 | DELETE | /ritmos/:id | Remove o cadastro de um ritmo pelo ID       |   200  |  ✔️  |
 
+<br>
 
- 
-
-### 🔒 Autenticação
+## 🔒 Autenticação
 
 Para segurança dos dados deste projeto, as funções *criar, atualizar e deletar*, só podem ser executadas por colaboradoas autorizadas.
  
@@ -181,10 +186,12 @@ Para segurança dos dados deste projeto, as funções *criar, atualizar e deleta
 | GET    | /colaboradoras | Lista todas as colaboradoras cadastradas                |   200  |  ❌  |
 | POST   | /colaboradoras/login | Devolve o token de uma colaboradora  |   200  |  ✔️  |
 | DELETE | /colaboradoras/:id | Remove uma colaboradora                |   200  |  ✔️  |
- 
 
+<br>
 
 ## 👋🏾 Preparando o ambiente para a execução
+````
+Para executar este projeto, você deverá ter instalado na sua máquina o Node.js
 
 Para executar este projeto, você deverá ter instalado na sua máquina o Node.js
 
@@ -196,22 +203,23 @@ Em seguida:
 
 - Digite o comando $ npm start para executar o servidor
 
+- Digite no terminal o comando $ npm install
 
+- Digite o comando $ npm start para executar o servidor
+  ````   
 
 ## ⚙️ Executando a aplicação
 
  ✔️ ✔️ Para fazer testes no servidor local:
+ 
   - Crie um arquivo .env na raiz do seu projeto e lembre-se de adicioná-lo ao seu .gitignore  
   - Utilize o arquivo .env.example para veririfcar as variáveis de ambiente necessárias.  
-  - Inicialize a aplicação com o comando *npm start* na pasta raiz do projeto.
-
- _____________________________________________
-
-
+  - Inicialize a aplicação com o comando <i>npm start</i> na pasta raiz do projeto.
+ 
  ✔️ ✔️ Para rodar remotamente:
 
-
- Utilize a URL do Heroku para fazer as requisições GET conforme rotas descritas acima, ou apenas clique nos links abaixo. Lembre-se de passar a chave quando um valor for esperado na URL. 😉
+ Utilize a URL do Heroku para fazer as requisições GET conforme as rotas descritas acima, ou apenas clique nos links abaixo. 
+ Lembre-se de passar um valor quando uma chave estiver declarada na URL. 😉
 
 ### 💃🏾 Rotas GET para as Cirandeiras:
  - [Listar todas as cirandeiras](https://cirandeiras-projeto-final.herokuapp.com/cirandeiras)
@@ -222,9 +230,13 @@ Em seguida:
  - [Listar todos os ritmos](https://cirandeiras-projeto-final.herokuapp.com/ritmos)
  - [Filtrar ritmos por região](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?regiao=)
  - [Filtrar ritmos por origem étnica](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?origem=)
+<br>
 
+## ⭐ Melhorias pro futuro:
+🪡 Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
 
-### ⭐ Melhorias futuras:
+ - Agenda de apresentações de cada artista
+ - Loja virtual para vender produtos personalizados ou divulgação de outra forma de obter recursos para que estas mulheres possam seguir trabalhando no meio cultural
 
 - Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
 - Integrar uma página dedicada à cada Cirandeira, nesta página teremos:
@@ -232,18 +244,18 @@ Em seguida:
     - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
 
 
-## Autoria
+## Autoria 🙋
 
-Este projeto foi desenvolvido por [Heloá Aires](https://www.linkedin.com/in/helo%C3%A1-aires-8140b2173/) 🙋🏽‍♀️ em parceria com o [Cirandeiras Podcast](https://www.instagram.com/cirandeiraspodcast/) 🎶.
+Este projeto foi desenvolvido por [Heloá Aires](https://www.linkedin.com/in/helo%C3%A1-aires-8140b2173/) em parceria com o [Cirandeiras Podcast](https://www.instagram.com/cirandeiraspodcast/) 🎶.
 
 Achou interessante e quer contrubuir para o desenvolvimento de mais funcionalidades?
 
-Escreve para a gente e vamos cirandar junt@s! 💜
+Escreve para a gente e vamos cirandar juntas! 💜
 
-
-🤩 Projeto realizado com os recursos aprendidos no bootcamp: 
-![imagem reprograma](https://user-images.githubusercontent.com/64453332/181824592-356442f6-1286-49ba-a8ce-51f6c66a71b9.png)
-
+🤩 Projeto realizado com os recursos aprendidos no bootcamp:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/64453332/181824592-356442f6-1286-49ba-a8ce-51f6c66a71b9.png" alt="logo reprogramafy" width="200">
+</p> <p align="center"> </p>
 
 
 
