@@ -2,6 +2,7 @@
 <h1 align="center">
     <br>
     <p align="center"> Cirandeiras - Mulheres na Cultura Popular 🎇<p>
+    <p align="center"> {reprograma} 💜 - turma On16 <p>
 </h1>
 
 
@@ -13,12 +14,12 @@
 <center> 
 Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da {reprograma}.🎉
 
-Este projeto é uma API REST e executa as funções CRUD em um banco de dados não relacional.
-Para as rotas create, patch e delete é necessária autorização mediante login. 
+Este projeto consiste em uma API REST onde podemos executar todas as funções CRUD em um banco de dados não relacional (MongoDB).
+Para as rotas create, patch e delete será necessária autorização mediante login. 
 
-Documentação da API: [Swagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
+Veja a documentação da API aqui:wagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
  
-Aplicação disponível em: [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
+A aplicação está disponível em: [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
 
 
 ### 💃🏾 Apresentação
@@ -32,12 +33,12 @@ Não à toa, as danças e brincadeiras que acompanham cada ritmo nos revelam uma
 
 Se ouvirmos os relatos de histórias das nossas famílias certamente vamos descobrir brincadeiras infantis, festejos e tradições derivadas dessas expressões culturais. Este resgate nos permite observar, por exemplo, os processos migratórios de famílias no eixo nordeste/sudeste e estabelecer conexões com o passado e nossos ancestrais. 
 
-O objetivo desta API é guardar essa memória. ✨
+O objetivo desta API é guardar essa memória, trazer visibilidade para a luta e pioneirismo dessas mulheres e ainda, disseminar nossa cultura popular. ✨
 
 Vamos lá?
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/64453332/181850464-fedb9837-620c-4faa-bc87-3ab8afe184f9.gif" alt="logo reprogramafy" width="500">
+<img src="https://user-images.githubusercontent.com/64453332/182512627-4f209983-2bec-4f3c-bc07-f472f35fb3bc.gif" alt="logo reprogramafy" width="500">
 </p> <p align="center"> </p>
 <br>
 <br>
@@ -205,14 +206,11 @@ Em seguida:
 
 - Digite o comando $ npm start para executar o servidor
 
-- Digite no terminal o comando $ npm install
-
-- Digite o comando $ npm start para executar o servidor
   ````   
 
 ## ⚙️ Executando a aplicação
 
- ✔️ ✔️ Para fazer testes no servidor local:
+ ✔️ Para fazer testes no servidor local:
  
   - Crie um arquivo .env na raiz do seu projeto e lembre-se de adicioná-lo ao seu .gitignore  
   - Utilize o arquivo .env.example para veririfcar as variáveis de ambiente necessárias.  
@@ -236,26 +234,34 @@ Em seguida:
 
 ## ⭐ Melhorias pro futuro:
 
-🪡 Integrar uma página dedicada à cada Cirandeira, onde teremos:
+ 💠 Integrar uma página dedicada à cada Cirandeira, onde teremos:
 
-    - Agenda de apresentações de cada artista
-    - Loja virtual de produtos ou outro meio que possa trazer um forma de sustento, já que apesar de toda a riqueza cultural que produzem, estas mulheres enfrentam dificuldades para seguir no meio artístico
+   🪡 Agenda de apresentações de cada artista
 
-🪡 Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
+   🪡 Loja virtual de produtos ou outra ferramenra que possa viabilizar recursos 
+
+<i>(infelizmente, apesar de toda a riqueza cultural que produzem, é comum que estas mulheres enfrentem dificuldades financeiras)</i>
+
+ 💠 Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/64453332/182513904-e9dba959-92d6-4a70-87d3-5197dacbd590.jpg" alt="logo reprogramafy" width="200">
+</p> <p align="center"> </p>
+
 
 ## Autoria 🙋
 
 Este projeto foi desenvolvido por [Heloá Aires](https://www.linkedin.com/in/helo%C3%A1-aires-8140b2173/) em parceria com o [Cirandeiras Podcast](https://www.instagram.com/cirandeiraspodcast/) 🎶.
 
-Achou interessante e quer contrubuir para o desenvolvimento de mais funcionalidades?
+Achou interessante e quer contrubuir para o desenvolvimento de outras funcionalidades?
 
 Escreve para a gente e vamos cirandar juntas! 💜
 
 🤩 Projeto realizado com os recursos aprendidos no bootcamp:
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/64453332/181824592-356442f6-1286-49ba-a8ce-51f6c66a71b9.png" alt="logo reprogramafy" width="200">
 </p> <p align="center"> </p>
-
 
 
 
