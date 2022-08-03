@@ -245,7 +245,7 @@ Em seguida:
  💠 Mural de artistas já falecidas para homenagear e guardar legados como o da inesquecível Zabé da Loca
  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/64453332/182513904-e9dba959-92d6-4a70-87d3-5197dacbd590.jpg" alt="logo reprogramafy" width="200">
+<img src="https://user-images.githubusercontent.com/64453332/182513904-e9dba959-92d6-4a70-87d3-5197dacbd590.jpg" alt="logo reprogramafy" width="400">
 </p> <p align="center"> </p>
 
 
