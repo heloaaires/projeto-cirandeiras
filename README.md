@@ -12,12 +12,12 @@
 
 
 <center> 
-Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da {reprograma}.🎉
+Bem-vindas ao meu projeto de conclusão do curso de *desenvolvimento back-end* - turma On16 da {reprograma}. 🎉
 
 Este projeto consiste em uma API REST onde podemos executar todas as funções CRUD em um banco de dados não relacional (MongoDB).
 Para as rotas create, patch e delete será necessária autorização mediante login. 
 
-Veja a documentação da API aqui:wagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
+Veja a documentação da API aqui: [Swagger](https://cirandeiras-projeto-final.herokuapp.com/documentacao/) 
  
 A aplicação está disponível em: [Heroku](https://cirandeiras-projeto-final.herokuapp.com/).
 
@@ -229,8 +229,6 @@ Em seguida:
 ### 🎵 Rotas GET para as Ritmos:
  - [Listar todos os ritmos](https://cirandeiras-projeto-final.herokuapp.com/ritmos)
  - [Filtrar ritmos por região](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?regiao=)
- - [Filtrar ritmos por origem étnica](https://cirandeiras-projeto-final.herokuapp.com/ritmos/?origem=)
-<br>
 
 ## ⭐ Melhorias pro futuro:
 
